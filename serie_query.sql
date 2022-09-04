@@ -1,0 +1,7 @@
+CREATE TABLE series(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(60) NOT NULL,
+	season INTEGER,
+	episode INTEGER,
+	finished BOOLEAN NOT NULL
+);
